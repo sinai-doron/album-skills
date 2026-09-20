@@ -11,9 +11,10 @@ private material.
 | skill | what it does |
 |---|---|
 | **[tripmap](tripmap/)** | Print-quality maps of a journey, drawn from a location-history export, photo EXIF GPS, or a source and a destination. Five archetypes — flight, region, city walk, island/coast, route — as SVG in millimetres and 300 DPI PNG. Includes a trip generator, so the examples run on data belonging to nobody. |
+| **[printbook](printbook/)** | Getting a finished design into a print service's web editor and ready to order: render each page full-bleed at the printer's exact pixel size, drive the editor in a real browser, place and verify every page. Includes the traps that waste an afternoon, and stops short of placing the order. |
 
-Planned, from the same body of work: culling and selection from a large camera roll, storyboard and page layout,
-generated stamps and clip-art, and print handover.
+Planned, from the same body of work: preflight checks on rendered pages, culling and selection from a large
+camera roll, face-safe cropping, and subject-preserving retouch.
 
 ## What these are for
 

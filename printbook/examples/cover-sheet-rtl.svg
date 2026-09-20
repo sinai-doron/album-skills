@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="640" viewBox="0 0 660 320">
+<style>
+ text{font-family:Arimo;fill:#23292d}
+ .ttl{font-size:15;font-weight:700}
+ .h{font-size:10.5;font-weight:700}
+ .lab{font-size:11.5;font-weight:700}
+ .sub{font-size:8.5;fill:#4d565c}
+ .note{font-size:8.5;fill:#4d565c}
+ .panel{stroke:#23292d;stroke-width:1}
+</style>
+<rect width="660" height="320" fill="#F6F4EF"/>
+<text class="ttl" x="26" y="32">The flat cover sheet — a right-to-left book</text>
+<text class="note" x="26" y="49">One sheet wraps the whole book. Its width depends on the page count,</text>
+<text class="note" x="26" y="62">so it is never the shape of a page.</text>
+
+<text class="h" x="26" y="92" fill="#1F6FB2">CORRECT — front panel on the LEFT</text>
+<rect class="panel" x="26" y="102" width="110" height="118" style="fill:#DCE5EF"/>
+<rect class="panel" x="136" y="102" width="18" height="118" style="fill:#1F6FB2"/>
+<rect class="panel" x="154" y="102" width="110" height="118" style="fill:#FAF7F2"/>
+<text class="lab" x="81" y="156" text-anchor="middle">FRONT</text>
+<text class="sub" x="81" y="171" text-anchor="middle">cover photo</text>
+<text class="lab" x="209" y="156" text-anchor="middle">BACK</text>
+<text class="sub" x="209" y="171" text-anchor="middle">solid colour</text>
+<text x="145" y="161" text-anchor="middle" transform="rotate(-90 145 161)" style="fill:#fff;font-size:8;font-weight:700">SPINE</text>
+<text class="note" x="26" y="244">The reader opens from the right, so the</text>
+<text class="note" x="26" y="257">front sits on the left of the flat sheet.</text>
+<text class="note" x="26" y="281">The spine usually carries the destination and the</text>
+<text class="note" x="26" y="294">year, not the front — ask, people have a house style.</text>
+
+<text class="h" x="350" y="92" fill="#b3261e">WRONG — flipped after the fact</text>
+<rect class="panel" x="350" y="102" width="110" height="118" style="fill:#FAF7F2"/>
+<rect class="panel" x="460" y="102" width="18" height="118" style="fill:#1F6FB2;opacity:.35"/>
+<rect class="panel" x="478" y="102" width="110" height="118" style="fill:#DCE5EF"/>
+<text class="lab" x="405" y="166" text-anchor="middle">BACK</text>
+<text class="lab" x="533" y="166" text-anchor="middle">FRONT</text>
+<path d="M460 102 l18 118 M478 102 l-18 118" stroke="#b3261e" stroke-width="2"/>
+<text class="note" x="350" y="244" fill="#b3261e">Flipping a finished cover halves the spine.</text>
+<text class="note" x="350" y="257">Design it in final orientation instead.</text>
+</svg>
