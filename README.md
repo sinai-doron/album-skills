@@ -46,6 +46,13 @@ These tools read location history and personal photographs. Two rules apply thro
 - **Source data stays out of the repository.** `.gitignore` refuses location exports, photo indexes and cached
   geocoder results by name. Example images are generated from synthetic trips, not real ones.
 
+## Checks
+
+`python3 scripts/check_frontmatter.py` validates every `SKILL.md` frontmatter: that it parses as YAML, that the
+name matches its folder, and that the description is there. Worth running before a commit — a bare colon inside a
+description is read as a nested mapping, which breaks the whole block, and the symptom is a skill that silently
+never triggers plus a red error box on GitHub. Nothing shows locally.
+
 ## Requirements
 
 `python3`, and per skill: `shapely` and `Pillow`, `exiftool` for reading photo metadata, Google Chrome for
