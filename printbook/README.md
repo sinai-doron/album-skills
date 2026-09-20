@@ -1,11 +1,33 @@
 # printbook
 
-Getting a finished book design out of your machine, into a print service's web editor, and ready for the customer
-to order.
+Getting a finished book design out of your machine, into **Picabook**, and ready for the customer to order.
+
+**This skill is specific to Picabook** (`picabook.co.il`). It was written from placing a complete 48-page album
+plus cover into `editor.picabook.co.il`, and every measurement, template name and trap below was observed there.
+The general shape — render pages, upload, place, verify, stop before ordering — transfers to Shutterfly, Mixbook,
+Blurb or Cewe, but nothing specific here should be trusted elsewhere without checking it first;
+`references/services.md` lists what to establish before you do.
 
 This is the least glamorous part of making a printed object and the one most likely to waste an afternoon. The
 editor is a web application built for a person dragging photos around: slow, stateful, and easy to get subtly
 wrong in ways nothing warns you about. A page can end up holding a right-looking image from the wrong file.
+
+## Picabook, concretely
+
+| | |
+|---|---|
+| Editor | `editor.picabook.co.il` — the customer signs in themselves |
+| Product used | **Prizma small** (פריזמה קטן), 21.5 × 22 cm hardcover |
+| Page image | trim 215 × 220 mm **+ 2 mm bleed every side** = **2587 × 2646 px at 300 DPI**, sRGB JPEG |
+| Template | **עמוד מלא**, the full-page template. Frame set to 21.5 × 22 cm at position 0,0 — no zoom, no nudge |
+| Page count | even, from 24; diamond-print paper caps around 100–121 pages |
+| Extra page | Picabook adds an **uncounted white logo page** at the end |
+| Save | confirmation reads "Sucessful save" — their spelling |
+| Fetching | `picabook.co.il` returns **403 to automated fetches**; use a real browser |
+| Lead time | roughly 10 business days |
+
+Re-read their size and page-count rules at the start of every album rather than trusting this table: one series
+changed dimensions after an equipment upgrade between two orders.
 
 ## Objects or images — the decision that shapes everything
 
@@ -36,7 +58,7 @@ walk every spread                                →  3D preview  →  hand back
 Never the last step. **Placing the order is the customer's own action**, always — and card details are not
 something to touch at all.
 
-## Right-to-left books
+## Right-to-left books — Picabook's Hebrew products
 
 The one that is easiest to get backwards, and expensive when you do:
 
@@ -46,6 +68,9 @@ Page 1 is a **left** page, so place spreads right-hand page first. And design th
 flipping a finished left-to-right cover cuts the spine text in half.
 
 ## The traps that cost real time
+
+All observed on Picabook. The tray behaviour is the one most likely to exist in any editor with an upload list;
+the rest may be Picabook's own.
 
 **The upload tray reshuffles when you replace an image.** The worst one, because it is silent. Replacing a page
 returns the old image to the "not used" list, which re-orders the tray, so the next drag picks up a neighbour. In
@@ -65,15 +90,15 @@ there waiting to be grabbed by mistake.
 **Trust the quality indicator.** Your files are exactly 300 DPI at printed size, so if the editor reports a low
 resolution for a page, something scaled it — that is a real defect, not a fussy warning.
 
-**Get the trim size from the service, now.** Not from memory, not from the last project. Sizes change: one album
-series changed dimensions after an equipment upgrade between two orders.
+**Get the trim size from Picabook, now.** Not from memory, not from the last project, not from the table above.
+Sizes change: one series changed dimensions after an equipment upgrade between two orders.
 
 ## Contents
 
 ```
 SKILL.md                 the method, for Claude Code
 references/preflight.md  what to check on the rendered files before opening a browser
-references/services.md   what differs between print services, and what to establish first
+references/services.md   Picabook's specifics, and what to establish before trusting them elsewhere
 examples/                the cover-sheet diagram above
 ```
 

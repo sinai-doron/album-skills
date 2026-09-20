@@ -1,13 +1,36 @@
 ---
 name: printbook
-description: Get a finished book design into a print service's web editor and ready to order — render each page to a full-bleed image at the printer's exact pixel size, drive the editor in a real browser to upload and place them, then verify every page before handing back for the customer to order. Use this whenever somebody has a designed photo book, album, zine or yearbook and needs it into Picabook, Shutterfly, Mixbook, Blurb, Cewe, Artifact Uprising or any similar web editor; whenever they ask "how do I get this to print", "can you put it in the editor", or "build it in their site"; and whenever a print order needs bleed, trim, spine or page-count checks. Also use it to review a book already sitting in an editor. Never place the order — that is always the customer's own action.
+description: Get a finished book design into Picabook (picabook.co.il) and ready to order — render each page to a full-bleed image at 2587x2646 px, drive editor.picabook.co.il in a real browser to upload and place them, then verify every page before handing back for the customer to order. Written from a complete 48-page Picabook album and specific to that service: its full-page template, its upload tray, its cover step, its Hebrew right-to-left products. Use it whenever somebody mentions Picabook or פיקאבוק, has a designed album to get into their editor, or asks "how do I get this to print" about an Israeli photo book. Much of the method transfers to Shutterfly, Mixbook, Blurb or Cewe, but every number and every trap here was observed on Picabook and is a hypothesis anywhere else. Never place the order — that is always the customer's own action.
 ---
 
 # printbook
 
-A print service's editor is a web application built for a person dragging photos around. Driving it is slow,
-stateful and easy to get subtly wrong — a page can end up holding the right-looking image from the wrong file and
-nothing will warn you. This skill is about doing it accurately and proving it afterwards.
+**This is a Picabook skill.** It was written from placing a complete 48-page album plus cover into
+`editor.picabook.co.il`, and every measurement, template name and trap below was observed there. The general
+shape — render pages, upload, place, verify, stop before ordering — transfers to Shutterfly, Mixbook, Blurb or
+Cewe, but treat anything specific as unverified elsewhere and check it against that service's own pages first.
+`references/services.md` lists what to establish before trusting any of it somewhere new.
+
+Picabook's editor is a web application built for a person dragging photos around. Driving it is slow, stateful and
+easy to get subtly wrong — a page can end up holding the right-looking image from the wrong file and nothing will
+warn you. This skill is about doing it accurately and proving it afterwards.
+
+## Picabook, concretely
+
+| | |
+|---|---|
+| Editor | `editor.picabook.co.il` — the customer signs in themselves |
+| Product used | **Prizma small** (פריזמה קטן), 21.5 × 22 cm hardcover |
+| Page image | trim 215 × 220 mm **+ 2 mm bleed every side** = **2587 × 2646 px at 300 DPI**, sRGB JPEG |
+| Template | **עמוד מלא** — the full-page template, one frame covering the page. Set the frame to 21.5 × 22 cm at position 0,0 |
+| Page count | even, from 24; the diamond-print paper caps around 100–121 pages |
+| Extra page | Picabook adds its own **uncounted white logo page** at the end |
+| Save | returns a confirmation reading "Sucessful save" — their spelling, not a typo to fix |
+| Fetching | `picabook.co.il` returns **403 to automated fetches**; read and drive it in a real browser |
+| Lead time | roughly 10 business days |
+
+Their marketing and help pages change. Re-read the size and page-count rules at the start of every album rather
+than trusting this table — one series changed dimensions after an equipment upgrade between two orders.
 
 ## The decision that shapes everything: objects or images
 
@@ -55,6 +78,9 @@ Work in a real browser with the person signed in. Ask them to sign in themselves
 
 ## The traps that cost real time
 
+All four were observed on Picabook. The first is the one most likely to exist in any editor with an upload tray;
+the rest may well be Picabook's own behaviour.
+
 **The upload tray reshuffles when you replace an image.** This is the worst one. Replacing a page returns the old
 image to the "not used" list, which re-orders the tray, so the next drag picks up a neighbour. In one run page 9
 silently received page 19's content this way. **Match by what the thumbnail shows, never by its position in the
@@ -74,7 +100,7 @@ available to be grabbed by mistake. Either delete them or know they are there.
 your image is exactly 300 DPI at printed size, so a low number means something went wrong, not that the file is
 poor.
 
-## Right-to-left books
+## Right-to-left books — Picabook's Hebrew products
 
 - **Page 1 is a left page.** Place spread by spread, right-hand page first, the way the book reads.
 - **The flat cover sheet reads [front | spine | back] — the front panel is on the LEFT**, the opposite of a

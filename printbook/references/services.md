@@ -1,9 +1,27 @@
-# What differs between print services
+# Picabook, and what to establish before trusting any of it elsewhere
 
-The workflow is the same everywhere; the details are not. Read the service's own pages for the current numbers —
-these change, and an old project is not a source.
+**Everything in this skill was observed on Picabook.** This file separates what is known about Picabook from what
+you would have to find out about any other service. The workflow shape is the same everywhere; the details are
+not, and an old project is never a source — read the service's own pages for the current numbers.
 
-## Things to establish before starting
+## Picabook — observed
+
+| | |
+|---|---|
+| Editor | `editor.picabook.co.il`; the main site returns 403 to automated fetches, so use a real browser |
+| Product | **Prizma small** / פריזמה קטן, 21.5 × 22 cm hardcover. Other sizes exist; their numbers are not these |
+| Bleed | 2 mm every side, up to 5 mm allowed. Page file **2587 × 2646 px at 300 DPI** |
+| Full-page template | **עמוד מלא**. Frames or borders on it are warned against — they fall outside the trim |
+| Pages | even, from 24; diamond print caps around 100–121 |
+| Logo page | an uncounted white page is added at the end |
+| Hebrew products | page 1 is a **left** page; the flat cover sheet is [front · spine · back] with **front on the left** |
+| Cover | a separate step; the sheet's size depends on the page count, so read it there and re-render to fit |
+| Quality indicator | a percentage per placed image; low means the file was scaled |
+| Upload tray | a "not used" list that **re-orders when an image is replaced** — the cause of the worst trap in this skill |
+| Save | responds "Sucessful save" |
+| Lead time | roughly 10 business days |
+
+## Anywhere else — what to establish first
 
 1. **Trim size** of the product, in mm, and **how much bleed** the full-page template expects (commonly 2 mm,
    sometimes up to 5 mm allowed).
