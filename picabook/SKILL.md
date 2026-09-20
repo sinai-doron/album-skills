@@ -1,9 +1,9 @@
 ---
-name: printbook
-description: Get a finished book design into Picabook (picabook.co.il) and ready to order — render each page to a full-bleed image at 2587x2646 px, drive editor.picabook.co.il in a real browser to upload and place them, then verify every page before handing back for the customer to order. Written from a complete 48-page Picabook album and specific to that service: its full-page template, its upload tray, its cover step, its Hebrew right-to-left products. Use it whenever somebody mentions Picabook or פיקאבוק, has a designed album to get into their editor, or asks "how do I get this to print" about an Israeli photo book. Much of the method transfers to Shutterfly, Mixbook, Blurb or Cewe, but every number and every trap here was observed on Picabook and is a hypothesis anywhere else. Never place the order — that is always the customer's own action.
+name: picabook
+description: Get a finished book design into Picabook, the Israeli photo-book printer (picabook.co.il), and ready to order — render each page to a full-bleed image at 2587x2646 px, drive editor.picabook.co.il in a real browser to upload and place them, then verify every page before handing back for the customer to order. Written from a complete 48-page Picabook album and specific to that service: its full-page template, its upload tray, its cover step, its Hebrew right-to-left products. Use it whenever somebody mentions Picabook or פיקאבוק, has a designed album to get into their editor, or asks "how do I get this to print" about an Israeli photo book. Much of the method transfers to Shutterfly, Mixbook, Blurb or Cewe, but every number and every trap here was observed on Picabook and is a hypothesis anywhere else. Never place the order — that is always the customer's own action.
 ---
 
-# printbook
+# picabook
 
 **This is a Picabook skill.** It was written from placing a complete 48-page album plus cover into
 `editor.picabook.co.il`, and every measurement, template name and trap below was observed there. The general

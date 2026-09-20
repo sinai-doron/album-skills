@@ -11,7 +11,7 @@ private material.
 | skill | what it does |
 |---|---|
 | **[tripmap](tripmap/)** | Print-quality maps of a journey, drawn from a location-history export, photo EXIF GPS, or a source and a destination. Five archetypes — flight, region, city walk, island/coast, route — as SVG in millimetres and 300 DPI PNG. Includes a trip generator, so the examples run on data belonging to nobody. |
-| **[printbook](printbook/)** | Getting a finished design into **Picabook** and ready to order: render each page full-bleed at their exact pixel size, drive their editor in a real browser, place and verify every page. Specific to Picabook — every number and trap was observed there — though the shape transfers. Stops short of placing the order. |
+| **[picabook](picabook/)** | Getting a finished design into **Picabook**, the Israeli photo-book printer, and ready to order: render each page full-bleed at their exact pixel size, drive their editor in a real browser, place and verify every page. Specific to Picabook — every number and trap was observed there — though the shape transfers. Stops short of placing the order. |
 
 Planned, from the same body of work: preflight checks on rendered pages, culling and selection from a large
 camera roll, face-safe cropping, and subject-preserving retouch.

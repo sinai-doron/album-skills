@@ -1,6 +1,7 @@
-# printbook
+# picabook
 
-Getting a finished book design out of your machine, into **Picabook**, and ready for the customer to order.
+Getting a finished book design out of your machine, into **Picabook** — the Israeli photo-book printer — and
+ready for the customer to order.
 
 **This skill is specific to Picabook** (`picabook.co.il`). It was written from placing a complete 48-page album
 plus cover into `editor.picabook.co.il`, and every measurement, template name and trap below was observed there.
