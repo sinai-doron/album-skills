@@ -1,0 +1,21 @@
+# Never commit somebody's location history or photo roll.
+# The one exception is the generated fiction in tripmap/example-data, which is nobody's.
+*timeline*.json
+*Timeline*.json
+!tripmap/example-data/timeline.json
+geocode_cache.json
+gps_cache.json
+visits.json
+osm_*.json
+# Natural Earth, 2.9 MB, public domain: download it, don't vendor it
+countries50.geojson
+scores.csv
+exif.json
+
+__pycache__/
+*.pyc
+.DS_Store
+.venv/
+
+# Rendered SVGs carry the whole basemap; the PNGs are the artefact, and demo_maps.py regenerates both
+tripmap/examples/*.svg
